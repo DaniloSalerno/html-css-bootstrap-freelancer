@@ -29,11 +29,15 @@ header {
     background-color: black;
     vertical-align: middle;
 }
+
+.container_sm_tight {
+    width: 75%;
+}
 /* #endregion common */
 
 
 /* #region jumbotron */
-#jumbotron {
+#jumbotron, #about {
     background-color: var(--bs-success-light);
 }
 
@@ -58,5 +62,10 @@ header {
     .container_xl {
         width: 60%;
         max-width: 1152px;
+    }
+
+    .container_xl_tight {
+        width: 50%;
+        max-width: 1080px;
     }
 }
