@@ -1,0 +1,22 @@
+/* #region common */
+:root {
+    --bs-success-light: #1abc9c;
+}
+/* #endregion common */
+
+
+/* #region jumbotron */
+#jumbotron {
+    background-color: var(--bs-success-light);
+}
+/* #endregion jumbotron */
+
+
+
+/* #region debug */
+.debug header {
+    height: 90px;
+    background-color: paleturquoise;
+}
+
+/* #endregion debug */
