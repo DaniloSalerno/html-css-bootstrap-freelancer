@@ -1,6 +1,24 @@
 /* #region common */
 :root {
     --bs-success-light: #1abc9c;
+    --bs-primary-dark: #2c3e50;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--bs-primary-dark);
+}
+
+.star::before, .star::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    vertical-align: middle;
 }
 /* #endregion common */
 
@@ -9,6 +27,12 @@
 #jumbotron {
     background-color: var(--bs-success-light);
 }
+
+.avatar img {
+    width: 200px;
+}
+
+
 /* #endregion jumbotron */
 
 
@@ -16,7 +40,6 @@
 /* #region debug */
 .debug header {
     height: 90px;
-    background-color: paleturquoise;
 }
 
 /* #endregion debug */
