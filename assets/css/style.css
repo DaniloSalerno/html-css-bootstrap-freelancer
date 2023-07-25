@@ -12,12 +12,21 @@ header {
     background-color: var(--bs-primary-dark);
 }
 
-.star::before, .star::after {
+.star_white::before, .star_white::after {
     content: '';
     display: inline-block;
     width: 100px;
     height: 4px;
     background-color: white;
+    vertical-align: middle;
+}
+
+.star_black::before, .star_black::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background-color: black;
     vertical-align: middle;
 }
 /* #endregion common */
@@ -43,3 +52,11 @@ header {
 }
 
 /* #endregion debug */
+
+
+@media screen and (min-width:1200px) {
+    .container_xl {
+        width: 60%;
+        max-width: 1152px;
+    }
+}
