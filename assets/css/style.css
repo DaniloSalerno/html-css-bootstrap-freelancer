@@ -2,14 +2,19 @@
 :root {
     --bs-success-light: #1abc9c;
     --bs-primary-dark: #2c3e50;
+    --bs-primary-light: #3a546d;
 }
 
 body {
     font-family: Helvetica, sans-serif;
 }
 
-header {
+header, .footer_bottom {
     background-color: var(--bs-primary-dark);
+}
+
+footer {
+    background-color: var(--bs-primary-light);
 }
 
 .star_white::before, .star_white::after {
@@ -37,16 +42,21 @@ header {
 
 
 /* #region jumbotron */
-#jumbotron, #about {
+#jumbotron, #about{
     background-color: var(--bs-success-light);
 }
 
 .avatar img {
     width: 200px;
 }
-
-
 /* #endregion jumbotron */
+
+/* #region footer */
+.footer_top .marked {
+    color: var(--bs-success-light);
+}
+/* #endregion footer */
+
 
 
 
@@ -58,6 +68,12 @@ header {
 .debug #contact {
     min-height: 400px;
 }
+
+.circle {
+    width: 30px;
+    aspect-ratio: 1 / 1;
+}
+
 
 /* #endregion debug */
 
