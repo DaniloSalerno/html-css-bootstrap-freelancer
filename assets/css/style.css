@@ -38,6 +38,13 @@ footer {
 .container_sm_tight {
     width: 75%;
 }
+
+
+
+.form-control::placeholder {
+    color: black;
+}
+
 /* #endregion common */
 
 
