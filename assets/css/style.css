@@ -61,9 +61,6 @@ footer {
 
 
 /* #region debug */
-.debug header {
-    height: 90px;
-}
 
 .debug #contact {
     min-height: 400px;
