@@ -58,28 +58,31 @@ footer {
 }
 /* #endregion jumbotron */
 
+
+/* #region contact */
+
+#contact form textarea {
+    height: 150px;
+}
+
+#contact form button {
+    background-color: var(--bs-success-light);
+}
+/* #endregion contact */
+
+
+
 /* #region footer */
 .footer_top .marked {
     color: var(--bs-success-light);
-}
-/* #endregion footer */
-
-
-
-
-/* #region debug */
-
-.debug #contact {
-    min-height: 400px;
 }
 
 .circle {
     width: 30px;
     aspect-ratio: 1 / 1;
 }
+/* #endregion footer */
 
-
-/* #endregion debug */
 
 
 @media screen and (min-width:1200px) {
